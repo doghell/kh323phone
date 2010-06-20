@@ -1,0 +1,149 @@
+typedef union {
+  PInt64	          ival;
+  PString	        * sval;
+  PStringList	        * slst;
+  TypeBase	        * tval;
+  TypesList	        * tlst;
+  ValueBase	        * vval;
+  ValuesList            * vlst;
+  NamedNumber	        * nval;
+  NamedNumberList       * nlst;
+  Constraint            * cons;
+  ConstraintElementList * elst;
+  ConstraintElementBase * elmt;
+  struct {
+    Tag::Type tagClass;
+    unsigned tagNumber;
+  } tagv;
+} YYSTYPE;
+#define	IDENTIFIER	258
+#define	BIT_IDENTIFIER	259
+#define	OID_IDENTIFIER	260
+#define	IMPORT_IDENTIFIER	261
+#define	MODULEREFERENCE	262
+#define	TYPEREFERENCE	263
+#define	OBJECTCLASSREFERENCE	264
+#define	TYPEFIELDREFERENCE	265
+#define	VALUEFIELDREFERENCE	266
+#define	VALUESETFIELDREFERENCE	267
+#define	OBJECTFIELDREFERENCE	268
+#define	OBJECTSETFIELDREFERENCE	269
+#define	OBJECTREFERENCE	270
+#define	OBJECTSETREFERENCE	271
+#define	INTEGER	272
+#define	CSTRING	273
+#define	OS_BSTRING	274
+#define	BS_BSTRING	275
+#define	OS_HSTRING	276
+#define	BS_HSTRING	277
+#define	STRING_BRACE	278
+#define	BITSTRING_BRACE	279
+#define	OID_BRACE	280
+#define	ABSENT	281
+#define	ABSTRACT_SYNTAX	282
+#define	ALL	283
+#define	ANY	284
+#define	APPLICATION	285
+#define	ASSIGNMENT	286
+#define	AUTOMATIC	287
+#define	BEGIN_t	288
+#define	BIT	289
+#define	BMPString	290
+#define	BOOLEAN_t	291
+#define	BY	292
+#define	CHARACTER	293
+#define	CHOICE	294
+#define	CLASS	295
+#define	COMPONENT	296
+#define	COMPONENTS	297
+#define	CONSTRAINED	298
+#define	DEFAULT	299
+#define	DEFINED	300
+#define	DEFINITIONS	301
+#define	EMBEDDED	302
+#define	END	303
+#define	ENUMERATED	304
+#define	EXCEPT	305
+#define	EXPLICIT	306
+#define	EXPORTS	307
+#define	EXTERNAL	308
+#define	FALSE_t	309
+#define	FROM	310
+#define	GeneralString	311
+#define	GraphicString	312
+#define	IA5String	313
+#define	TYPE_IDENTIFIER	314
+#define	IDENTIFIER_t	315
+#define	IMPLICIT	316
+#define	IMPORTS	317
+#define	INCLUDES	318
+#define	INSTANCE	319
+#define	INTEGER_t	320
+#define	INTERSECTION	321
+#define	ISO646String	322
+#define	MACRO	323
+#define	MAX_t	324
+#define	MIN_t	325
+#define	MINUS_INFINITY	326
+#define	NOTATION	327
+#define	NULL_VALUE	328
+#define	NULL_TYPE	329
+#define	NumericString	330
+#define	OBJECT	331
+#define	OCTET	332
+#define	OF_t	333
+#define	OPTIONAL_t	334
+#define	PDV	335
+#define	PLUS_INFINITY	336
+#define	PRESENT	337
+#define	PrintableString	338
+#define	PRIVATE	339
+#define	REAL	340
+#define	SEQUENCE	341
+#define	SET	342
+#define	SIZE_t	343
+#define	STRING	344
+#define	SYNTAX	345
+#define	T61String	346
+#define	TAGS	347
+#define	TeletexString	348
+#define	TRUE_t	349
+#define	TYPE_t	350
+#define	UNION	351
+#define	UNIQUE	352
+#define	UNIVERSAL	353
+#define	UniversalString	354
+#define	VideotexString	355
+#define	VisibleString	356
+#define	GeneralizedTime	357
+#define	UTCTime	358
+#define	VALUE	359
+#define	WITH	360
+#define	string_t	361
+#define	identifier_t	362
+#define	number_t	363
+#define	empty_t	364
+#define	type_t	365
+#define	value_t	366
+#define	OBJECT_TYPE	367
+#define	TRAP_TYPE	368
+#define	ACCESS	369
+#define	STATUS	370
+#define	read_only_t	371
+#define	read_write_t	372
+#define	write_only_t	373
+#define	not_accessible_t	374
+#define	mandatory_t	375
+#define	optional_t	376
+#define	obsolete_t	377
+#define	deprecated_t	378
+#define	DESCRIPTION_t	379
+#define	REFERENCE_t	380
+#define	INDEX_t	381
+#define	DEFVAL_t	382
+#define	ENTERPRISE	383
+#define	VARIABLES	384
+#define	ObjectDescriptor_t	385
+
+
+extern YYSTYPE yylval;
