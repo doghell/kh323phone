@@ -1,0 +1,79 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "H323Phone", "H323Phone.vcproj", "{A44DC38B-0010-43C2-8562-B5B7A3340131}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76569356-593F-417E-A8C5-108FF3F364D9} = {76569356-593F-417E-A8C5-108FF3F364D9}
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B} = {345AAC5E-AE82-4392-9EA9-40D0B150DC6B}
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1} = {B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB} = {1B42F0CB-A989-43F8-94F9-44411FFEAFDB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EMLibH323", "..\EMLibH323\EMLibH323.vcproj", "{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseClasses", "..\BaseClasses\baseclasses.vcproj", "{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmplayer", "..\mplayer\libmplayer.vcproj", "{76569356-593F-417E-A8C5-108FF3F364D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "portaudio", "..\pa_stable_v19_061121\portaudio\build\msvc\portaudio.vcproj", "{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Unicode = Debug Unicode
+		Release = Release
+		Release Unicode = Release Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Debug.ActiveCfg = Debug|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Debug.Build.0 = Debug|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Debug Unicode.ActiveCfg = Debug|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Debug Unicode.Build.0 = Debug|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Release.ActiveCfg = Release|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Release.Build.0 = Release|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Release Unicode.ActiveCfg = Release|Win32
+		{A44DC38B-0010-43C2-8562-B5B7A3340131}.Release Unicode.Build.0 = Release|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Debug.ActiveCfg = Debug|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Debug.Build.0 = Debug|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Debug Unicode.ActiveCfg = Debug|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Debug Unicode.Build.0 = Debug|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Release.ActiveCfg = Release|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Release.Build.0 = Release|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Release Unicode.ActiveCfg = Release|Win32
+		{345AAC5E-AE82-4392-9EA9-40D0B150DC6B}.Release Unicode.Build.0 = Release|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Debug.ActiveCfg = Debug|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Debug.Build.0 = Debug|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Debug Unicode.Build.0 = Debug Unicode|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Release.ActiveCfg = Release|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Release.Build.0 = Release|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Release Unicode.ActiveCfg = Release Unicode|Win32
+		{B41F6FB6-EEA3-4020-ADD5-3C39BDFF3FE1}.Release Unicode.Build.0 = Release Unicode|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Debug.ActiveCfg = Debug|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Debug.Build.0 = Debug|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Debug Unicode.ActiveCfg = Debug|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Debug Unicode.Build.0 = Debug|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Release.ActiveCfg = Release|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Release.Build.0 = Release|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Release Unicode.ActiveCfg = Release|Win32
+		{76569356-593F-417E-A8C5-108FF3F364D9}.Release Unicode.Build.0 = Release|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Debug.ActiveCfg = Debug|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Debug.Build.0 = Debug|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Debug Unicode.ActiveCfg = Debug|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Debug Unicode.Build.0 = Debug|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Release.ActiveCfg = Release|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Release.Build.0 = Release|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Release Unicode.ActiveCfg = Release|Win32
+		{1B42F0CB-A989-43F8-94F9-44411FFEAFDB}.Release Unicode.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
