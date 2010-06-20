@@ -1,0 +1,19 @@
+/amrcodec.txt/1.1/Mon Oct 22 07:41:09 2007//
+/decoder.c/1.1/Mon Oct 22 07:41:09 2007//
+/encoder.c/1.1/Mon Oct 22 07:41:10 2007//
+/interf_dec.c/1.1/Mon Oct 22 07:41:10 2007//
+/interf_dec.h/1.1/Mon Oct 22 07:41:10 2007//
+/interf_enc.c/1.1/Mon Oct 22 07:41:10 2007//
+/interf_enc.h/1.1/Mon Oct 22 07:41:10 2007//
+/interf_rom.h/1.1/Mon Oct 22 07:41:10 2007//
+/makefile.gcc/1.1/Mon Oct 22 07:41:10 2007//
+/makefile.win32/1.1/Mon Oct 22 07:41:10 2007//
+/readme.txt/1.1/Mon Oct 22 07:41:10 2007//
+/rom_dec.h/1.1/Mon Oct 22 07:41:10 2007//
+/rom_enc.h/1.1/Mon Oct 22 07:41:10 2007//
+/sp_dec.c/1.1/Mon Oct 22 07:41:11 2007//
+/sp_dec.h/1.1/Mon Oct 22 07:41:11 2007//
+/sp_enc.c/1.1/Mon Oct 22 07:41:11 2007//
+/sp_enc.h/1.1/Mon Oct 22 07:41:11 2007//
+/typedef.h/1.1/Mon Oct 22 07:41:11 2007//
+D
